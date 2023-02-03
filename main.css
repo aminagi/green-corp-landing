@@ -71,6 +71,7 @@ header {
 		background: url('img/back.png') no-repeat;
 		background-position: center;
 		background-size: cover;
+		position: relative;
 
 	}
 	.about h1 {
@@ -245,4 +246,11 @@ box-shadow: 0 16px 36px rgba(246 152 12 / 20%);
    .footer__container {
        flex-direction: column;
    }
+}
+.orb-canvas {
+	position: absolute;
+	top: 0;
+	right: 0;
+	height: 100%;
+
 }
